@@ -1,0 +1,31 @@
+Title: Inverse Indexing in Digits
+
+Description:
+You are given a number that is guaranteed to have 5 digits. Each digit is unique and ranges from 1 to 5. 
+Your task is to calculate the inverse of the number by switching each digit's position with its value. 
+For example, if the number is 462135, then 4 is in the 1st position, 6 is in the 2nd position, etc. 
+The inverse is formed by swapping each digit with the position of its value.
+
+Example:
+For the number 462135, the inverse will be 416325.
+Explanation:
+- 4 is at index 1 -> 1 goes to index 4
+- 6 is at index 2 -> 2 goes to index 6
+- And so on.
+
+Input Format:
+A single integer 'n', where 'n' is a 5-digit number consisting of the digits from 1 to 5, without missing any digit or repeating.
+
+Output Format:
+A single integer representing the inverted number.
+
+Constraints:
+- The number 'n' is a 5-digit integer consisting only of digits from 1 to 5.
+- The number must not have repeating digits.
+
+Sample Test Case 1:
+Input:
+462135
+
+Output:
+416325

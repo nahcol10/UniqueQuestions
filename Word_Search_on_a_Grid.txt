@@ -1,0 +1,44 @@
+Title: Word Search on a Grid
+
+Description:
+Given a m x n grid of characters and a word, check if the word exists in the grid. The word can be constructed from letters of sequentially adjacent cells, where "adjacent" cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+
+Example:
+Input:
+Grid:  
+A B C E  
+S F C S  
+A D E E  
+Word: "ABCCED"
+
+Output:
+True
+
+Input Format:
+The dimensions m and n of the grid, followed by m lines each containing n characters, and then a string representing the word to search for.
+
+Output Format:
+True or False.
+
+Constraints:
+- 1 <= m, n <= 200
+- The word length is <= 100.
+
+Sample Test Case 1:
+Input:
+3 4  
+A B C E  
+S F C S  
+A D E E  
+ABCCED
+Output:
+True
+
+Sample Test Case 2:
+Input:
+2 2  
+A B  
+C D  
+ABCD
+Output:
+False
